@@ -1,0 +1,298 @@
+[ 2018-05-24T14:10:49+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000289s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000829s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-05-24T14:11:12+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2018-05-24T14:11:40+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2018-05-24T14:13:53+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `student` WHERE ( xh = 15121101 )  [ RunTime:0.0102s ]
+SQL: SELECT * FROM `teacher` WHERE ( gh = 15121101 )  [ RunTime:0.0105s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 15121101 )  [ RunTime:0.0082s ]
+NOTIC: [2] session_name(): Cannot change session name when session is active /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1238 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1242 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1243 行.
+NOTIC: [8] session_start(): A session had already been started - ignoring /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-05-24T14:28:00+08:00 ] ::1 /index.php/Home/user/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2018-05-24T14:28:01+08:00 ] ::1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-05-24T14:28:11+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+ERR: SQLSTATE[HY000] [2002] Network is unreachable
+
+[ 2018-05-24T14:28:30+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+ERR: SQLSTATE[HY000] [2002] Network is unreachable
+
+[ 2018-05-24T14:29:58+08:00 ] ::1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2018-05-24T14:30:16+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+ERR: SQLSTATE[HY000] [2002] Network is unreachable
+
+[ 2018-05-24T14:31:32+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+ERR: SQLSTATE[HY000] [2002] Network is unreachable
+
+[ 2018-05-24T14:32:04+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `student` WHERE ( xh = 15121101 )  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `teacher` WHERE ( gh = 15121101 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 15121101 )  [ RunTime:0.0058s ]
+NOTIC: [2] session_name(): Cannot change session name when session is active /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1238 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1242 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1243 行.
+NOTIC: [8] session_start(): A session had already been started - ignoring /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2018-05-24T14:33:09+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `student` WHERE ( xh = 0101 )  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `teacher` WHERE ( gh = 0101 )  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 0101 )  [ RunTime:0.0059s ]
+NOTIC: [2] session_name(): Cannot change session name when session is active /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1238 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1242 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1243 行.
+NOTIC: [8] session_start(): A session had already been started - ignoring /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] Use of undefined constant xl - assumed 'xl' (this will throw an Error in a future version of PHP) /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Home/Controller/UserController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2018-05-24T14:34:33+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2018-05-24T16:27:41+08:00 ] ::1 /index.php/Home/user/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `student` WHERE ( xh = 0101 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `teacher` WHERE ( gh = 0101 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 0101 )  [ RunTime:0.0002s ]
+NOTIC: [2] session_name(): Cannot change session name when session is active /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1238 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1242 行.
+NOTIC: [2] ini_set(): A session is active. You cannot change the session module's ini settings at this time /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1243 行.
+NOTIC: [8] session_start(): A session had already been started - ignoring /Users/fyc/Documents/CODING/DB/Wechat_Course-master/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] Use of undefined constant xl - assumed 'xl' (this will throw an Error in a future version of PHP) /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Home/Controller/UserController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+

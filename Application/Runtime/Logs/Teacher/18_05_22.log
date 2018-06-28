@@ -1,0 +1,144 @@
+[ 2018-05-22T09:53:51+08:00 ] ::1 /index.php/Teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2018-05-22T09:53:53+08:00 ] ::1 /index.php/Teacher/Course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `open_apply` [ RunTime:0.0074s ]
+SQL: SELECT open_course.kh,course.km,open_course.sksj,course.xf FROM `open_course` INNER JOIN course on open_course.kh = course.kh  WHERE ( open_course.gh = 0101 and open_course.xq = '2013-2014 秋季' )  [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `open_apply` WHERE ( applier = 0101 ) LIMIT 1   [ RunTime:0.0066s ]
+SQL: SELECT open_apply.kh,course.km,open_apply.sksj,course.xf,open_apply.status,open_apply.id FROM `open_apply` INNER JOIN course on open_apply.kh = course.kh  WHERE ( applier = 0101 ) LIMIT 0,10   [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: count /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/1e9d6b99b6f84fd58738cba914255438.php 第 230 行.
+NOTIC: [4096] Object of class Think\Page could not be converted to string /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/1e9d6b99b6f84fd58738cba914255438.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2018-05-22T09:53:57+08:00 ] ::1 /index.php/Teacher/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: count /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/6e79f2041144dda4d60b55c6bbf0bbcf.php 第 227 行.
+NOTIC: [8] Undefined variable: list /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/6e79f2041144dda4d60b55c6bbf0bbcf.php 第 254 行.
+NOTIC: [8] Undefined variable: page /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/6e79f2041144dda4d60b55c6bbf0bbcf.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-05-22T09:53:59+08:00 ] ::1 /index.php/Teacher/Course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `open_apply` [ RunTime:0.0081s ]
+SQL: SELECT open_course.kh,course.km,open_course.sksj,course.xf FROM `open_course` INNER JOIN course on open_course.kh = course.kh  WHERE ( open_course.gh = 0101 and open_course.xq = '2013-2014 秋季' )  [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `open_apply` WHERE ( applier = 0101 ) LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT open_apply.kh,course.km,open_apply.sksj,course.xf,open_apply.status,open_apply.id FROM `open_apply` INNER JOIN course on open_apply.kh = course.kh  WHERE ( applier = 0101 ) LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: count /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/1e9d6b99b6f84fd58738cba914255438.php 第 230 行.
+NOTIC: [4096] Object of class Think\Page could not be converted to string /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/1e9d6b99b6f84fd58738cba914255438.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2018-05-22T10:13:12+08:00 ] ::1 /index.php/Teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2018-05-22T10:13:14+08:00 ] ::1 /index.php/Teacher/Course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `open_apply` [ RunTime:0.0026s ]
+SQL: SELECT open_course.kh,course.km,open_course.sksj,course.xf FROM `open_course` INNER JOIN course on open_course.kh = course.kh  WHERE ( open_course.gh = 0101 and open_course.xq = '2013-2014 秋季' )  [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `open_apply` WHERE ( applier = 0101 ) LIMIT 1   [ RunTime:0.0036s ]
+SQL: SELECT open_apply.kh,course.km,open_apply.sksj,course.xf,open_apply.status,open_apply.id FROM `open_apply` INNER JOIN course on open_apply.kh = course.kh  WHERE ( applier = 0101 ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: count /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/1e9d6b99b6f84fd58738cba914255438.php 第 230 行.
+NOTIC: [4096] Object of class Think\Page could not be converted to string /Users/fyc/Documents/CODING/DB/Wechat_Course-master/Application/Runtime/Cache/Teacher/1e9d6b99b6f84fd58738cba914255438.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002226s ]
+
